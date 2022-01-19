@@ -1,0 +1,38 @@
+.container{
+    border: 5px solid saddlebrown;
+    display: flex;
+    flex-direction: column;
+}
+
+#box1{
+    border: 2px solid blue;
+    height: 80px;
+}
+#box2{
+    border: 2px solid green;
+    display: flex;
+}
+#box3{
+    border: 10px solid yellow;
+    height: 200px;
+}
+#box4{
+    border: 2px solid red;
+    height: 30px;
+}
+.left{
+    width: 50%;
+    border: 10px solid brown;
+    height: 200px;
+}
+.right{
+    width: 50%;
+    border: 10px  solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.rightleft{
+    /* width: 50%; */
+    border: 8px solid blueviolet;
+    height: 50%;
+}
